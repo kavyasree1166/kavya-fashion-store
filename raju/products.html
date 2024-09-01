@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOBILE STORE</title>
+    <link rel="stylesheet" href="products.css">
+    <script src="products.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>KAVYA FASHION STORE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-grid">
+            <article class="product-card">
+                <img src="image.8.jpg" alt="Kurtha">
+                <h2>Kurtha</h2>
+                <p class="price">₹499</p>
+
+                <!-- Product details -->
+                <p class="details">This Kurtha is made from high-quality fabric and is available in various sizes.</p>
+
+                <!-- Quantity Selector -->
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                <!-- Buttons -->
+                <div class="button-group">
+                    <button id="add-to-cart" onclick="addToCart('image.8.jpg', 'Kurtha', 499)">Add to Cart</button>
+                    <button id="buy-now" onclick="buyNow('image.8.jpg', 'Kurtha', 499)">Buy Now</button>
+                </div>
+
+                <!-- Product Review Section -->
+                <div class="review-section">
+                    <h3>Product Reviews</h3>
+                    <textarea id="review" rows="4" placeholder="Write your review here..."></textarea>
+                    <button id="submit-review" onclick="submitReview()">Submit Review</button>
+                    <p id="review-message"></p> <!-- Placeholder for success message -->
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="image.9.jpg" alt="lehanga">
+                <h2>lahanga</h2>
+                <p class="price">₹2999</p>
+
+                <!-- Product details -->
+                <p class="details">This lahenga is made from high-quality fabric and is available in various sizes.</p>
+
+                <!-- Quantity Selector -->
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                <!-- Buttons -->
+                <div class="button-group">
+                    <button id="add-to-cart" onclick="addToCart('image.9.jpg', 'lehanga', 2999)">Add to Cart</button>
+                    <button id="buy-now" onclick="buyNow('image.9.jpg', 'lehanga', 2999)">Buy Now</button>
+                </div>
+
+                <!-- Product Review Section -->
+                <div class="review-section">
+                    <h3>Product Reviews</h3>
+                    <textarea id="review" rows="4" placeholder="Write your review here..."></textarea>
+                    <button id="submit-review" onclick="submitReview()">Submit Review</button>
+                    <p id="review-message"></p> <!-- Placeholder for success message -->
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="image.10.jpg" alt="gown">
+                <h2>gown</h2>
+                <p class="price">₹899</p>
+                <!-- Product details -->
+                <p class="details">This gown is made from high-quality fabric and is available in various sizes.</p>
+
+                <!-- Quantity Selector -->
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                <!-- Buttons -->
+                <div class="button-group">
+                    <button id="add-to-cart" onclick="addToCart('image.10.jpg', 'gown', 899)">Add to Cart</button>
+                    <button id="buy-now" onclick="buyNow('image.10.jpg', 'gown', 899)">Buy Now</button>
+                </div>
+
+                <!-- Product Review Section -->
+                <div class="review-section">
+                    <h3>Product Reviews</h3>
+                    <textarea id="review" rows="4" placeholder="Write your review here..."></textarea>
+                    <button id="submit-review" onclick="submitReview()">Submit Review</button>
+                    <p id="review-message"></p> <!-- Placeholder for success message -->
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="image.11.jpg" alt="frock">
+                <h2>frock</h2>
+                <p class="price">₹1299</p>
+
+                <!-- Product details -->
+                <p class="details">This frock is made from high-quality fabric and is available in various sizes.</p>
+
+                <!-- Quantity Selector -->
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                <!-- Buttons -->
+                <div class="button-group">
+                    <button id="add-to-cart" onclick="addToCart('image.11.jpg', 'frovk', 1299)">Add to Cart</button>
+                    <button id="buy-now" onclick="buyNow('image.11.jpg', 'frock', 1299)">Buy Now</button>
+                </div>
+
+                <!-- Product Review Section -->
+                <div class="review-section">
+                    <h3>Product Reviews</h3>
+                    <textarea id="review" rows="4" placeholder="Write your review here..."></textarea>
+                    <button id="submit-review" onclick="submitReview()">Submit Review</button>
+                    <p id="review-message"></p> <!-- Placeholder for success message -->
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="image.12.jpg" alt="sundress">
+                <h2>sundress</h2>
+                <p class="price">₹2999</p>
+
+                <!-- Product details -->
+                <p class="details">Thissundress is made from high-quality fabric and is available in various sizes.</p>
+
+                <!-- Quantity Selector -->
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                <!-- Buttons -->
+                <div class="button-group">
+                    <button id="add-to-cart" onclick="addToCart('image.12.jpg', 'sundress', 2999)">Add to Cart</button>
+                    <button id="buy-now" onclick="buyNow('image.12.jpg', 'sundress', 2999)">Buy Now</button>
+                </div>
+
+                <!-- Product Review Section -->
+                <div class="review-section">
+                    <h3>Product Reviews</h3>
+                    <textarea id="review" rows="4" placeholder="Write your review here..."></textarea>
+                    <button id="submit-review" onclick="submitReview()">Submit Review</button>
+                    <p id="review-message"></p> <!-- Placeholder for success message -->
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="image.13.jpg" alt="skirt">
+                <h2>skirt</h2>
+                <p class="price">₹4199</p>
+
+                <!-- Product details -->
+                <p class="details">This skirt is made from high-quality fabric and is available in various sizes.</p>
+
+                <!-- Quantity Selector -->
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                <!-- Buttons -->
+                <div class="button-group">
+                    <button id="add-to-cart" onclick="addToCart('image.13.jpg', 'skirt', 4199)">Add to Cart</button>
+                    <button id="buy-now" onclick="buyNow('image.13.jpg', 'skirt', 4199)">Buy Now</button>
+                </div>
+
+                <!-- Product Review Section -->
+                <div class="review-section">
+                    <h3>Product Reviews</h3>
+                    <textarea id="review" rows="4" placeholder="Write your review here..."></textarea>
+                    <button id="submit-review" onclick="submitReview()">Submit Review</button>
+                    <p id="review-message"></p> <!-- Placeholder for success message -->
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="image.14.jpg" alt="anarkali suit">
+                <h2>anarkali suit</h2>
+                <p class="price">₹1199</p>
+
+                <!-- Product details -->
+                <p class="details">This anarkali suitis made from high-quality fabric and is available in various sizes.</p>
+
+                <!-- Quantity Selector -->
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                <!-- Buttons -->
+                <div class="button-group">
+                    <button id="add-to-cart" onclick="addToCart('image.14.jpg', 'anarkali suit', 1199)">Add to Cart</button>
+                    <button id="buy-now" onclick="buyNow('image.14.jpg', 'anarkali suit', 1199)">Buy Now</button>
+                </div>
+
+                <!-- Product Review Section -->
+                <div class="review-section">
+                    <h3>Product Reviews</h3>
+                    <textarea id="review" rows="4" placeholder="Write your review here..."></textarea>
+                    <button id="submit-review" onclick="submitReview()">Submit Review</button>
+                    <p id="review-message"></p> <!-- Placeholder for success message -->
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="image.15.jpg" alt="baloon dress">
+                <h2>baloon dress</h2>
+                <p class="price">₹2499</p>
+
+                <!-- Product details -->
+                <p class="details">Thisbaloon dress is made from high-quality fabric and is available in various sizes.</p>
+
+                <!-- Quantity Selector -->
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                <!-- Buttons -->
+                <div class="button-group">
+                    <button id="add-to-cart" onclick="addToCart('image.15.jpg', 'baloon dress',2499)">Add to Cart</button>
+                    <button id="buy-now" onclick="buyNow('image.15.jpg', 'baloon dressa',2499)">Buy Now</button>
+                </div>
+
+                <!-- Product Review Section -->
+                <div class="review-section">
+                    <h3>Product Reviews</h3>
+                    <textarea id="review" rows="4" placeholder="Write your review here..."></textarea>
+                    <button id="submit-review" onclick="submitReview()">Submit Review</button>
+                    <p id="review-message"></p> <!-- Placeholder for success message -->
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="image.16.jpg" alt="bodycon dress">
+                <h2>bodycon dress</h2>
+                <p class="price">₹3499</p>
+
+                <!-- Product details -->
+                <p class="details">This bodycon dress is made from high-quality fabric and is available in various sizes.</p>
+
+                <!-- Quantity Selector -->
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                <!-- Buttons -->
+                <div class="button-group">
+                    <button id="add-to-cart" onclick="addToCart('image.16.jpg', 'bodycon dress',3499)">Add to Cart</button>
+                    <button id="buy-now" onclick="buyNow('image.16.jpg', 'bodycon dress',3499)">Buy Now</button>
+                </div>
+
+                <!-- Product Review Section -->
+                <div class="review-section">
+                    <h3>Product Reviews</h3>
+                    <textarea id="review" rows="4" placeholder="Write your review here..."></textarea>
+                    <button id="submit-review" onclick="submitReview()">Submit Review</button>
+                    <p id="review-message"></p> <!-- Placeholder for success message -->
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="image.17.jpg" alt="tube dress">
+                <h2>tube dress</h2>
+                <p class="price">₹1499</p>
+
+                <!-- Product details -->
+                <p class="details">This tube dress is made from high-quality fabric and is available in various sizes.</p>
+
+                <!-- Quantity Selector -->
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                <!-- Buttons -->
+                <div class="button-group">
+                    <button id="add-to-cart" onclick="addToCart('image.17.jpg', 'tube dressa', 1499)">Add to Cart</button>
+                    <button id="buy-now" onclick="buyNow('image.17.jpg', 'tube dress', 1499)">Buy Now</button>
+                </div>
+
+                <!-- Product Review Section -->
+                <div class="review-section">
+                    <h3>Product Reviews</h3>
+                    <textarea id="review" rows="4" placeholder="Write your review here..."></textarea>
+                    <button id="submit-review" onclick="submitReview()">Submit Review</button>
+                    <p id="review-message"></p> <!-- Placeholder for success message -->
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="image.18.jpg" alt="chudidhar">
+                <h2>chudidhar</h2>
+                <p class="price">₹2499</p>
+
+                <!-- Product details -->
+                <p class="details">Thischudidhar is made from high-quality fabric and is available in various sizes.</p>
+
+                <!-- Quantity Selector -->
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                <!-- Buttons -->
+                <div class="button-group">
+                    <button id="add-to-cart" onclick="addToCart('image.18.jpg', 'chudidhar',2499)">Add to Cart</button>
+                    <button id="buy-now" onclick="buyNow('image.18.jpg', 'chudidhar',2499)">Buy Now</button>
+                </div>
+
+                <!-- Product Review Section -->
+                <div class="review-section">
+                    <h3>Product Reviews</h3>
+                    <textarea id="review" rows="4" placeholder="Write your review here..."></textarea>
+                    <button id="submit-review" onclick="submitReview()">Submit Review</button>
+                    <p id="review-message"></p> <!-- Placeholder for success message -->
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="image.19.jpg" alt="westron dress">
+                <h2>westron dress</h2>
+                <p class="price">₹2499</p>
+
+                <!-- Product details -->
+                <p class="details">This westron dress is made from high-quality fabric and is available in various sizes.</p>
+
+                <!-- Quantity Selector -->
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                <!-- Buttons -->
+                <div class="button-group">
+                    <button id="add-to-cart" onclick="addToCart('image.19.jpg', 'westron dress', 2499)">Add to Cart</button>
+                    <button id="buy-now" onclick="buyNow('image.19.jpg', 'westron dressha', 2499)">Buy Now</button>
+                </div>
+
+                <!-- Product Review Section -->
+                <div class="review-section">
+                    <h3>Product Reviews</h3>
+                    <textarea id="review" rows="4" placeholder="Write your review here..."></textarea>
+                    <button id="submit-review" onclick="submitReview()">Submit Review</button>
+                    <p id="review-message"></p> <!-- Placeholder for success message -->
+                </div>
+            </article>
+            <!-- Add more products similarly -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 KAVYA FASHIONS Store</p>
+    </footer>
+</body>
+</html>

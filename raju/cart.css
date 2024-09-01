@@ -1,0 +1,174 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background: #520d26;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    padding: 1rem;
+}
+
+/* Cart items table styling */
+#cart-items table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+#cart-items th,
+#cart-items td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+#cart-items th {
+    background: #520d26;
+    color: #fff;
+}
+
+#cart-items td img {
+    width: 50px;
+}
+
+/* Cart summary styling */
+#cart-summary {
+    margin-bottom: 1rem;
+}
+
+#cart-summary p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Button styling */
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Checkout button color */
+#checkout-button {
+    background-color: #218838;
+}
+
+#checkout-button:hover {
+    background-color: #0056b3;
+}
+
+/* Payment method section */
+#payment-method table {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#payment-method td {
+    padding: 0.5rem;
+}
+
+/* Payment success section */
+#payment-success {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+}
+
+#payment-success h2 {
+    color: #155724;
+}
+
+#payment-success p {
+    margin-bottom: 1rem;
+}
+
+/* Order history section */
+#order-history {
+    margin-top: 1rem;
+}
+
+#order-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#order-history th,
+#order-history td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+#order-history th {
+    background: #520d26;
+    color: #fff;
+}
+
+#order-history tbody tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Footer styling */
+footer {
+    background: #520d26;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
